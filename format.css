@@ -1,0 +1,82 @@
+body {
+    background-image: url("Screenshot\ 2024-12-01\ 181905.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-family: "press Start 2P", sans-serif;
+    background-color: white;
+}
+
+p {
+    background-color: grey;
+    color: white;
+}
+
+#page1, #page2, #page3, #page4{
+    display:inline-flex ;
+    background-color: lime;
+    color: green;
+    font-family: "Fredoka One", cursive, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px solid;
+    width: 300px; /* Adjust width as needed */
+    height: 800px;
+    margin: 10px; /* Add margin for spacing */
+}
+
+#page2 {
+    background-color: skyblue;
+    color: blue;
+    font-weight: bold;
+}
+
+#page3 {
+    background-color: lightcoral;
+    color: red;
+    font-weight: bold;
+}
+
+#page4 {
+    background-color: yellow;
+    color:orange;
+    font-weight:bold;
+}
+
+#page5 {
+    width: 700px;
+    height: 800px;
+    float: right;
+    clear: both;
+    position: absolute;
+    top: 970px;
+    left: 400px;
+}
+
+#box1 {
+    width:710px;
+    height:220px;
+    background: red;
+    font-size: 225px;
+    text-align: center;
+    
+    animation: mySlide;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
