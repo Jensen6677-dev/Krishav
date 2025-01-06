@@ -52,12 +52,3 @@ p {
     font-weight:bold;
 }
 
-#page5 {
-    width: 700px;
-    height: 800px;
-    float: right;
-    clear: both;
-    position: absolute;
-    top: 970px;
-    left: 400px;
-}
