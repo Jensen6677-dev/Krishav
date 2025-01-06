@@ -61,22 +61,3 @@ p {
     top: 970px;
     left: 400px;
 }
-
-#box1 {
-    width:710px;
-    height:220px;
-    background: red;
-    font-size: 225px;
-    text-align: center;
-    
-    animation: mySlide;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-
-}
-
-@keyframes mySlide{
-    from{margin-left: 100%;}
-    to{margin-right: 0%;}
-}
